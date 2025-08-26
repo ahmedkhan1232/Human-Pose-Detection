@@ -1,0 +1,36 @@
+/* app/Header/Header.module.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #538fe9;
+    color: white;
+  }
+  
+  .logo h1 {
+    margin: 0;
+  }
+  
+  .nav {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px; /* Round border radius */
+    padding: 10px 20px; /* Padding for better click area */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+    background-color: transparent; /* Initially transparent background */
+  }
+  
+  .nav a:hover {
+    background-color: #3f77d0; /* Darken background on hover */
+    color: #fff; /* Change text color on hover */
+  }
+  

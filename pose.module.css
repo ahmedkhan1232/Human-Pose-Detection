@@ -1,0 +1,49 @@
+/* app/pose-detection/pose.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .container h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .container h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: black;
+
+  }
+  
+  .buttonContainer {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .button {
+    background-color: #2575fc;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #1a5bbf;
+  }
+  .image {
+    border-radius: 10px; /* Rounded corners */
+    height: 200px; /* Set the height */
+    margin-bottom: 20px; /* Add some space below the image */
+}
